@@ -23,10 +23,10 @@ export default function StudentTemplatePage() {
             </div>
             <div>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
-                Twoje imię i nazwisko
+                Tobiasz Ryznar
               </h1>
               <p className="mt-2 font-medium text-violet-100">
-                Klasa: [Twoja klasa]
+                Klasa: 1Tc
               </p>
             </div>
           </div>
