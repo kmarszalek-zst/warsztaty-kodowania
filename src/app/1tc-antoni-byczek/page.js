@@ -26,7 +26,7 @@ export default function StudentTemplatePage() {
                 Twoje imię i nazwisko
               </h1>
               <p className="mt-2 font-medium text-violet-100">
-                Klasa: [Twoja klasa]
+                Klasa: 1Tc
               </p>
             </div>
           </div>
