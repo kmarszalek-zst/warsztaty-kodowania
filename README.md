@@ -51,7 +51,7 @@ npm run build   # przygotowuje produkcyjną wersję strony
 ## Gdzie edytować stronę?
 
 - `src/app/page.js` — strona główna,
-- `src/components/general/` — wspólne sekcje strony głównej, w tym opis wyzwania,
+- `src/components/general/` — wspólne sekcje strony głównej, w tym opis wyzwania i konfigurację GitHub,
 - `src/app/nauczyciel/page.js` — wizytówka nauczyciela,
 - `src/app/klasa-imie-nazwisko/page.js` — szablon wizytówki ucznia; uczeń zmienia nazwę folderu na własną,
 - `src/components/klasa-imie-nazwisko/` — komponenty szablonu; uczeń zmienia nazwę folderu na taką samą jak folder strony,

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FiArrowRight, FiUserPlus } from "react-icons/fi";
 import ChallengeInstructions from "../components/general/ChallengeInstructions";
+import GitAccountSetup from "../components/general/GitAccountSetup";
 import HomeHeader from "../components/general/HomeHeader";
 import HomeIntro from "../components/general/HomeIntro";
 import WorkshopSteps from "../components/general/WorkshopSteps";
@@ -78,6 +79,7 @@ export default function Home() {
       </section>
 
       <ChallengeInstructions />
+      <GitAccountSetup />
 
       <footer className="pb-8 text-center text-sm text-slate-500">
         <p>Eksperymentuj, pytaj, poprawiaj. Tak powstaje dobry kod.</p>
