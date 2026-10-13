@@ -1,32 +1,34 @@
-import { FiUser } from "react-icons/fi";
+import Image from "next/image";
 import ProfileLayout from "../../components/general/ProfileLayout";
 import StudentDetails from "../../components/klasa-imie-nazwisko/StudentDetails";
 
 export const metadata = {
-  title: "Wizytówka ucznia — Twoje imię i nazwisko — ZST Koduj",
+  title: "Wizytówka ucznia — Antoni Byczek — ZST Koduj",
   description:
-    "Wizytówka ucznia Twoje imię i nazwisko z klasy Twoja klasa w warsztatach ZST Koduj.",
+    "Wizytówka ucznia Antonigo Byczka z klasy Twoja klasa w warsztatach ZST Koduj.",
 };
 
 export default function StudentTemplatePage() {
   return (
     <ProfileLayout>
       <article className="mt-8 overflow-hidden rounded-3xl border border-violet-200 bg-white shadow-lg">
-        <div className="bg-violet-700 p-8 text-white sm:p-10">
+        <div className="bg-gradient-to-r from-red-600 to-violet-600 p-8 text-white sm:p-10">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
-            <div
-              aria-label="Miejsce na zdjęcie ucznia"
-              className="flex h-28 w-28 shrink-0 flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-violet-200 bg-violet-600 text-violet-100"
-            >
-              <FiUser aria-hidden="true" size={32} />
-              <span className="text-xs font-medium">Twoje zdjęcie</span>
-            </div>
+            <Image
+              src="https://avatars.githubusercontent.com/u/259967531?v=4"
+              alt="Zdjęcie profilowe Antniego Byczka"
+              width={512}
+              height={512}
+              
+              className="h-28 w-28 rounded-3xl border-4 border-white/20 object-cover sm:h-32 sm:w-32"
+              priority
+            />
             <div>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
-                Twoje imię i nazwisko
+                Antoni Byczek
               </h1>
               <p className="mt-2 font-medium text-violet-100">
-                Klasa: [Twoja klasa]
+                Klasa: 1Tc
               </p>
             </div>
           </div>
