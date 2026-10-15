@@ -7,11 +7,7 @@ export default function StudentDetails() {
         O mnie
       </h2>
       <p className="mt-3 leading-7 text-slate-600">
-<<<<<<< Updated upstream:src/components/klasa-imie-nazwisko/StudentDetails.js
         [Tutaj wpisz kilka zdań o sobie.]
-=======
-        [Lubie grać w szachy, piłkę nożną, a także interesuje mnie programowanie i tworzenie stron internetowych. W wolnym czasie lubię również oglądać filmy lub seriale.]
->>>>>>> Stashed changes:src/components/2te-aleks-kirilov/StudentDetails.js
       </p>
       <a
         href="https://github.com/AleKis67"
