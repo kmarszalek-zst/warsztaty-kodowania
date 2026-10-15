@@ -1,11 +1,11 @@
 import { FiUser } from "react-icons/fi";
 import ProfileLayout from "../../components/general/ProfileLayout";
-import StudentDetails from "../../components/klasa-imie-nazwisko/StudentDetails";
+import StudentDetails from "../../components/2te-kacper-stasiowski/StudentDetails";
 
 export const metadata = {
-  title: "Wizytówka ucznia — Twoje imię i nazwisko — ZST Koduj",
+  title: "Wizytówka ucznia — Twoje Kacper Stasiowski — ZST Koduj",
   description:
-    "Wizytówka ucznia Twoje imię i nazwisko z klasy Twoja klasa w warsztatach ZST Koduj.",
+    "Wizytówka ucznia Kacper Stasiowski z klasy 2Te w warsztatach ZST Koduj.",
 };
 
 export default function StudentTemplatePage() {
@@ -23,10 +23,10 @@ export default function StudentTemplatePage() {
             </div>
             <div>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
-                Twoje imię i nazwisko
+                Kacper Stasiowski
               </h1>
               <p className="mt-2 font-medium text-violet-100">
-                Klasa: [Twoja klasa]
+                Klasa: 2Te
               </p>
             </div>
           </div>
