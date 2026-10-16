@@ -18,20 +18,63 @@ export default function PrintChallengeButton() {
     setIsGenerating(true);
     setError("");
 
+    let renderContainer;
+
     try {
       const [{ toCanvas }, { default: jsPDF }] = await Promise.all([
         import("html-to-image"),
         import("jspdf"),
       ]);
-      const canvas = await toCanvas(section, {
-        pixelRatio: 1.5,
-        filter: (node) =>
-          !(node instanceof HTMLElement && node.dataset.pdfIgnore === "true"),
-      });
       const pdf = new jsPDF({ unit: "mm", format: "a4", orientation: "portrait" });
       const margin = 10;
       const contentWidth = pdf.internal.pageSize.getWidth() - margin * 2;
       const contentHeight = pdf.internal.pageSize.getHeight() - margin * 2;
+      const contentWidthPx = (contentWidth * 96) / 25.4;
+      renderContainer = document.createElement("div");
+      renderContainer.style.cssText = [
+        "position:fixed",
+        "left:0",
+        "top:0",
+        "z-index:-1",
+        `width:${contentWidthPx}px`,
+        "overflow:visible",
+        "background:#fff",
+        "pointer-events:none",
+      ].join(";");
+      const pdfSection = section.cloneNode(true);
+      pdfSection.style.width = `${contentWidthPx}px`;
+      pdfSection.style.maxWidth = "none";
+      pdfSection.style.margin = "0";
+      pdfSection.style.padding = "24px";
+      pdfSection.style.boxSizing = "border-box";
+
+      for (const grid of pdfSection.querySelectorAll(".grid")) {
+        grid.style.gridTemplateColumns = "minmax(0, 1fr)";
+
+        for (const child of grid.children) {
+          child.style.gridColumn = "auto";
+        }
+      }
+
+      for (const element of pdfSection.querySelectorAll("pre")) {
+        element.style.whiteSpace = "pre-wrap";
+        element.style.overflow = "visible";
+        element.style.overflowWrap = "anywhere";
+      }
+
+      for (const element of pdfSection.querySelectorAll("code")) {
+        element.style.overflowWrap = "anywhere";
+      }
+
+      renderContainer.append(pdfSection);
+      document.body.append(renderContainer);
+      await document.fonts.ready;
+
+      const canvas = await toCanvas(pdfSection, {
+        pixelRatio: 1.5,
+        filter: (node) =>
+          !(node instanceof HTMLElement && node.dataset.pdfIgnore === "true"),
+      });
       const pageCanvasHeight = Math.floor(
         (canvas.width * contentHeight) / contentWidth,
       );
@@ -84,6 +127,7 @@ export default function PrintChallengeButton() {
           : "Nie udało się utworzyć PDF. Spróbuj ponownie.",
       );
     } finally {
+      renderContainer?.remove();
       setIsGenerating(false);
     }
   }
