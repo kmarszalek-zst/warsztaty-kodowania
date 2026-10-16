@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FiArrowRight, FiUserPlus } from "react-icons/fi";
 import ChallengeInstructions from "../components/general/ChallengeInstructions";
+import ChallengeTwoInstructions from "../components/general/ChallengeTwoInstructions";
 import GitAccountSetup from "../components/general/GitAccountSetup";
 import HomeHeader from "../components/general/HomeHeader";
 import HomeIntro from "../components/general/HomeIntro";
@@ -59,14 +60,21 @@ export default function Home() {
             className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
           >
             <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-violet-200 text-violet-900">
-              <FiUserPlus aria-hidden="true" size={24} />
+              <Image
+              src="https://avatars.githubusercontent.com/u/340120984?s=400&u=39c8ec70ddbf3576ab6828ad842ae2c0f20db1c0&v=4"
+              alt=""
+              width={56}
+              height={56}
+              className="h-14 w-14 rounded-2xl object-cover"
+            />
+
             </span>
             <span className="min-w-0">
               <span className="block truncate font-bold">
-                Twoje imię i nazwisko
+                Tobiasz Ryznar
               </span>
-              <span className="mt-1 block text-sm font-medium text-violet-800">
-                Klasa: [Twoja klasa]
+              <span className="mt-1 block text-sm font-medium text-slate-900">
+                Klasa: 1Tc
               </span>
             </span>
             <FiArrowRight
@@ -79,6 +87,7 @@ export default function Home() {
       </section>
 
       <ChallengeInstructions />
+      <ChallengeTwoInstructions />
       <GitAccountSetup />
 
       <footer className="pb-8 text-center text-sm text-slate-500">
