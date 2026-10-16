@@ -1,7 +1,10 @@
 import Image from "next/image";
 import { FiArrowRight, FiUserPlus } from "react-icons/fi";
 import ChallengeInstructions from "../components/general/ChallengeInstructions";
+<<<<<<< HEAD
+=======
 import ChallengeTwoInstructions from "../components/general/ChallengeTwoInstructions";
+>>>>>>> upstream/main
 import GitAccountSetup from "../components/general/GitAccountSetup";
 import HomeHeader from "../components/general/HomeHeader";
 import HomeIntro from "../components/general/HomeIntro";
@@ -56,7 +59,11 @@ export default function Home() {
 
           {/* Uczniowie: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <a
+<<<<<<< HEAD
+            href="/2te-mateusz-mezyk"
+=======
             href="/klasa-imie-nazwisko"
+>>>>>>> upstream/main
             className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
           >
             <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-violet-200 text-violet-900">
@@ -64,10 +71,17 @@ export default function Home() {
             </span>
             <span className="min-w-0">
               <span className="block truncate font-bold">
+<<<<<<< HEAD
+                Mateusz Mezyk
+              </span>
+              <span className="mt-1 block text-sm font-medium text-violet-800">
+                Klasa:2Te
+=======
                 Twoje imię i nazwisko
               </span>
               <span className="mt-1 block text-sm font-medium text-violet-800">
                 Klasa: [Twoja klasa]
+>>>>>>> upstream/main
               </span>
             </span>
             <FiArrowRight
@@ -80,7 +94,10 @@ export default function Home() {
       </section>
 
       <ChallengeInstructions />
+<<<<<<< HEAD
+=======
       <ChallengeTwoInstructions />
+>>>>>>> upstream/main
       <GitAccountSetup />
 
       <footer className="pb-8 text-center text-sm text-slate-500">
