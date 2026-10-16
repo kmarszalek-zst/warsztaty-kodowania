@@ -9,6 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "html-to-image": "^1.11.13",
+    "jspdf": "^4.2.1",
+>>>>>>> upstream/main
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
