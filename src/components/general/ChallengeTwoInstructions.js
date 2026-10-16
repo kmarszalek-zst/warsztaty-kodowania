@@ -1,4 +1,5 @@
 import { FiAlertCircle, FiGitMerge, FiZap } from "react-icons/fi";
+import PrintChallengeButton from "./PrintChallengeButton";
 
 export default function ChallengeTwoInstructions() {
   return (
@@ -20,6 +21,13 @@ export default function ChallengeTwoInstructions() {
           te kroki samodzielnie i wyłącznie na swoim branchu — nie zmieniaj ani
           nie wysyłaj zmian na branch innej osoby lub bezpośrednio na{" "}
           <code>main</code>.
+        </p>
+      </div>
+
+      <div data-pdf-ignore="true">
+        <PrintChallengeButton />
+        <p className="mt-2 text-sm text-slate-600">
+          Pobierze się plik PDF zawierający tylko tę instrukcję.
         </p>
       </div>
 
