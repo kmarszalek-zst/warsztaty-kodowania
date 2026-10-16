@@ -55,7 +55,7 @@ export default function Home() {
           </a>
 
           {/* Uczniowie: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
-          <a
+          {/* <a
             href="/klasa-imie-nazwisko"
             className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
           >
@@ -68,6 +68,31 @@ export default function Home() {
               </span>
               <span className="mt-1 block text-sm font-medium text-violet-800">
                 Klasa: [Twoja klasa]
+              </span>
+            </span>
+            <FiArrowRight
+              aria-hidden="true"
+              className="ml-auto shrink-0 transition group-hover:translate-x-1"
+            />
+          </a> */}
+
+           <a
+            href="/2te-lukasz-gadzala"
+            className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
+          >
+            <img
+              src="zdjecie.jpg"
+              alt=""
+              width={56}
+              height={56}
+              className="h-14 w-14 rounded-2xl object-cover"
+            />
+            <span className="min-w-0">
+              <span className="block truncate font-bold">
+                Łukasz Gadzała
+              </span>
+              <span className="mt-1 block text-sm font-medium text-violet-800">
+                Klasa: 2Te
               </span>
             </span>
             <FiArrowRight
