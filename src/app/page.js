@@ -56,7 +56,7 @@ export default function Home() {
 
           {/* Uczniowie: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <a
-            href="/klasa-imie-nazwisko"
+            href="/1tc-jakub-marynowski"
             className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
           >
             <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-violet-200 text-violet-900">
@@ -64,10 +64,10 @@ export default function Home() {
             </span>
             <span className="min-w-0">
               <span className="block truncate font-bold">
-                Twoje imię i nazwisko
+                Jakub Marynowski
               </span>
               <span className="mt-1 block text-sm font-medium text-violet-800">
-                Klasa: [Twoja klasa]
+                Klasa: 1TC
               </span>
             </span>
             <FiArrowRight
