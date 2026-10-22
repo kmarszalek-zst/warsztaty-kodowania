@@ -15,7 +15,7 @@ export default function StudentTemplatePage() {
         <div className="bg-violet-700 p-8 text-white sm:p-10">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
            <img
-              src="/pfp.jpg.webp"
+              src="pfp.jpg"
               alt="Zdjęcie ucznia Jakub Marynowski"
               width={128}
               height={128}
