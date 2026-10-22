@@ -1,11 +1,12 @@
 import { FiUser } from "react-icons/fi";
 import ProfileLayout from "../../components/general/ProfileLayout";
-import StudentDetails from "../../components/klasa-imie-nazwisko/StudentDetails";
+import StudentDetails from "../../components/2te-mateusz-mezyk/StudentDetails";
+import Image from "next/image";
 
 export const metadata = {
-  title: "Wizytówka ucznia — Twoje imię i nazwisko — ZST Koduj",
+  title: "Wizytówka ucznia — Mateusz Mężyk — ZST Koduj",
   description:
-    "Wizytówka ucznia Twoje imię i nazwisko z klasy Twoja klasa w warsztatach ZST Koduj.",
+    "Wizytówka ucznia Mateusz Mężyk z klasy 2Te w warsztatach ZST Koduj.",
 };
 
 export default function StudentTemplatePage() {
@@ -18,15 +19,18 @@ export default function StudentTemplatePage() {
               aria-label="Miejsce na zdjęcie ucznia"
               className="flex h-28 w-28 shrink-0 flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-violet-200 bg-violet-600 text-violet-100"
             >
-              <FiUser aria-hidden="true" size={32} />
-              <span className="text-xs font-medium">Twoje zdjęcie</span>
+            <img
+               src="https://github.com/mateues-54.png"
+               alt="Mateusz Mężyk"
+               className="h-28 w-28 rounded-2xl object-cover"
+            />
             </div>
             <div>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
-                Twoje imię i nazwisko
+                Mateusz Mężyk
               </h1>
               <p className="mt-2 font-medium text-violet-100">
-                Klasa: [Twoja klasa]
+                Klasa: 2Te
               </p>
             </div>
           </div>
