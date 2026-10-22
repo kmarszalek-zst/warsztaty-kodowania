@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ProfileLayout from "../../components/general/ProfileLayout";
-import StudentDetails from "../../components/klasa-imie-nazwisko/StudentDetails";
+import StudentDetails from "../../components/1tc-antoni-byczek/StudentDetails";
 
 export const metadata = {
   title: "Wizytówka ucznia — Antoni Byczek — ZST Koduj",
