@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FiArrowRight, FiUserPlus } from "react-icons/fi";
 import ChallengeInstructions from "../components/general/ChallengeInstructions";
+import ChallengeThreePlaceholder from "../components/general/ChallengeThreePlaceholder";
 import ChallengeTwoInstructions from "../components/general/ChallengeTwoInstructions";
 import GitAccountSetup from "../components/general/GitAccountSetup";
 import HomeHeader from "../components/general/HomeHeader";
@@ -81,6 +82,7 @@ export default function Home() {
 
       <ChallengeInstructions />
       <ChallengeTwoInstructions />
+      <ChallengeThreePlaceholder />
       <GitAccountSetup />
 
       <footer className="pb-8 text-center text-sm text-slate-500">
