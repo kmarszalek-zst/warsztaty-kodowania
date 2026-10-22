@@ -1,11 +1,11 @@
 import { FiUser } from "react-icons/fi";
 import ProfileLayout from "../../components/general/ProfileLayout";
-import StudentDetails from "../../components/klasa-imie-nazwisko/StudentDetails";
+import StudentDetails from "../../components/1TC-Maciej-Jarosz/StudentDetails";
 
 export const metadata = {
-  title: "Wizytówka ucznia — Twoje imię i nazwisko — ZST Koduj",
+  title: "Wizytówka ucznia — Maciej Jarosz — ZST Koduj",
   description:
-    "Wizytówka ucznia Twoje imię i nazwisko z klasy Twoja klasa w warsztatach ZST Koduj.",
+    "Wizytówka ucznia Maciej Jarosz z klasy 1 TC w warsztatach ZST Koduj.",
 };
 
 export default function StudentTemplatePage() {
@@ -19,14 +19,14 @@ export default function StudentTemplatePage() {
               className="flex h-28 w-28 shrink-0 flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-violet-200 bg-violet-600 text-violet-100"
             >
               <FiUser aria-hidden="true" size={32} />
-              <span className="text-xs font-medium">Twoje zdjęcie</span>
+              <span className="text-xs font-medium">pies.jpg</span>
             </div>
             <div>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
-                Twoje imię i nazwisko
+                Maciej Jarosz
               </h1>
               <p className="mt-2 font-medium text-violet-100">
-                Klasa: [Twoja klasa]
+                Klasa: [1 TC]
               </p>
             </div>
           </div>
