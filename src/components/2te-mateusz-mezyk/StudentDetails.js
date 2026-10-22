@@ -7,10 +7,10 @@ export default function StudentDetails() {
         O mnie
       </h2>
       <p className="mt-3 leading-7 text-slate-600">
-        [Tutaj wpisz kilka zdań o sobie.]
+        Jestem Mateusz , moje pasje to wędkarstwo , straż pożarna oraz asg , jestem członkiem OSP oraz stowarzyszeniu wędkarzy SIEPIETNICA&WRÓBLOWA NO KILL
       </p>
       <a
-        href="https://github.com/twoj-login"
+        href="https://github.com/mateues-54"
         target="_blank"
         rel="noreferrer"
         className="mt-6 inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 font-bold text-white transition hover:bg-slate-700"
