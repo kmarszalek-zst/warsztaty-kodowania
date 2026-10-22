@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ProfileLayout from "@/components/general/ProfileLayout";
-import StudentDetails from "@/components/2Te-aleks-kirilov/StudentDetails";
+import StudentDetails from "@/components/2te-aleks-kirilov/StudentDetails";
 
 export const metadata = {
   title: "Wizytówka ucznia – Aleks Kirilov – ZST Koduje",
