@@ -7,7 +7,7 @@ export default function StudentDetails() {
         O mnie
       </h2>
       <p className="mt-3 leading-7 text-slate-600">
-        [Tutaj wpisz kilka zdań o sobie.]
+        [Lubię grać в piłkę nożną na wychowaniu fizycznym, uwielbiam grać w gry komputerowe]
       </p>
       <a
         href="https://github.com/twoj-login"
