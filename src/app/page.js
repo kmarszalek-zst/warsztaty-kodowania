@@ -1,3 +1,4 @@
+import { FiArrowRight } from "react-icons/fi";
 import ChallengeInstructions from "../components/general/ChallengeInstructions";
 import ChallengeThreePlaceholder from "../components/general/ChallengeThreePlaceholder";
 import ChallengeTwoInstructions from "../components/general/ChallengeTwoInstructions";
@@ -6,6 +7,7 @@ import HomeHeader from "../components/general/HomeHeader";
 import HomeIntro from "../components/general/HomeIntro";
 import ProfileCard from "../components/general/ProfileCard";
 import WorkshopSteps from "../components/general/WorkshopSteps";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -40,13 +42,15 @@ export default function Home() {
           />
         </div>
 
+          {/* Dodaj kolejne karty uczniów powyżej. */}
         <h3 className="mt-10 text-xl font-black tracking-tight">Klasa 1 TC</h3>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Uczniowie 1 TC: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <ProfileCard
-            href="/klasa-imie-nazwisko"
-            name="Twoje imię i nazwisko"
+            href="/1tc-tobiasz-ryznar"
+            name="Tobiasz Ryznar"
             description="Klasa: 1 TC"
+            image="https://avatars.githubusercontent.com/u/340120984?s=400&u=39c8ec70ddbf3576ab6828ad842ae2c0f20db1c0&v=4"
           />
           {/* Dodaj kolejne karty uczniów 1 TC powyżej. */}
         </div>
