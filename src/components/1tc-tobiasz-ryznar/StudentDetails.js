@@ -3,11 +3,11 @@ import { FiArrowUpRight } from "react-icons/fi";
 export default function StudentDetails() {
   return (
     <div className="p-8 sm:p-10">
-      <h2 className="text-sm font-bold uppercase tracking-wide text-violet-700">
+      <h2 className="text-sm font-bold uppercase tracking-wide text-slate-900">
         O mnie
       </h2>
       <p className="mt-3 leading-7 text-slate-600">
-        Nazywam się Tobiasz Ryznar i uczę się w technikum w klasie 1Tc. Interesuję się programowaniem
+        Nazywam się Tobiasz Ryznar i uczę się w technikum w klasie 1Tc. Interesuję się programowaniem oraz nowoczesnymi technologiami. W wolym czasie lubię grać w gry , słuchać muzyki i oglądać filmy .
       </p>
       <a
         href="https://github.com/ryznartobiasztc-dev"
