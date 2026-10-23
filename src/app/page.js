@@ -1,10 +1,12 @@
 import Image from "next/image";
-import { FiArrowRight, FiUserPlus } from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 import ChallengeInstructions from "../components/general/ChallengeInstructions";
+import ChallengeThreePlaceholder from "../components/general/ChallengeThreePlaceholder";
 import ChallengeTwoInstructions from "../components/general/ChallengeTwoInstructions";
 import GitAccountSetup from "../components/general/GitAccountSetup";
 import HomeHeader from "../components/general/HomeHeader";
 import HomeIntro from "../components/general/HomeIntro";
+import ProfileCard from "../components/general/ProfileCard";
 import WorkshopSteps from "../components/general/WorkshopSteps";
 
 export default function Home() {
@@ -31,35 +33,20 @@ export default function Home() {
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <a
+          <ProfileCard
             href="/nauczyciel"
-            className="group flex items-center gap-4 rounded-3xl border border-slate-200 bg-white p-5 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
-          >
-            <Image
-              src="https://avatars.githubusercontent.com/u/57961329?v=4"
-              alt=""
-              width={56}
-              height={56}
-              className="h-14 w-14 rounded-2xl object-cover"
-            />
-            <span className="min-w-0">
-              <span className="block font-bold">Klaudiusz Marszałek</span>
-              <span className="mt-1 block text-sm text-slate-600">
-                Nauczyciel
-              </span>
-            </span>
-            <FiArrowRight
-              aria-hidden="true"
-              className="ml-auto transition group-hover:translate-x-1"
-            />
-          </a>
+            name="Klaudiusz Marszałek"
+            description="Nauczyciel"
+            image="https://avatars.githubusercontent.com/u/57961329?v=4"
+            variant="teacher"
+          />
 
           {/* Uczniowie: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <a
-            href="/2Te-aleks-kirilov"
+            href="/2te-aleks-kirilov"
             className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
           >
-             <Image
+            <Image
               src="/images.jpg"
               alt=""
               width={56}
@@ -85,6 +72,7 @@ export default function Home() {
 
       <ChallengeInstructions />
       <ChallengeTwoInstructions />
+      <ChallengeThreePlaceholder />
       <GitAccountSetup />
 
       <footer className="pb-8 text-center text-sm text-slate-500">
