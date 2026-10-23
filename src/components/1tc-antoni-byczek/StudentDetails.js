@@ -38,6 +38,13 @@ export default function StudentDetails() {
       >
         Mój profil GitHub <FiArrowUpRight aria-hidden="true" />
       </a>
+      <a href="https://byqab.itch.io/"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-6 inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 font-bold text-white transition hover:bg-slate-700"
+      >
+      Mój profil Itch.io <FiArrowUpRight aria-hidden="true" />
+      </a>
     </div>
   );
 }
