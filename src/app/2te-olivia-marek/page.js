@@ -26,7 +26,7 @@ export default function StudentTemplatePage() {
                 Olivia Marek
               </h1>
               <p className="mt-2 font-medium text-violet-100">
-                Klasa: [2Te]
+                Klasa: 2Te
               </p>
             </div>
           </div>
