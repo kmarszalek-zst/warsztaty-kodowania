@@ -6,6 +6,8 @@ import HomeHeader from "../components/general/HomeHeader";
 import HomeIntro from "../components/general/HomeIntro";
 import ProfileCard from "../components/general/ProfileCard";
 import WorkshopSteps from "../components/general/WorkshopSteps";
+import Image from "next/image";
+import { FiArrowRight } from "react-icons/fi";
 
 export default function Home() {
   return (
@@ -39,44 +41,19 @@ export default function Home() {
             variant="teacher"
           />
         </div>
-        HEAD
           {/* Uczniowie: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
-          <a
-            href="/1tc-antoni-byczek"
-            className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
-          >
-            <Image 
-              src="https://avatars.githubusercontent.com/u/259967531?v=4"
-              alt=""
-              width={56}
-              height={56}
-              className="h-14 w-14 rounded-2xl object-cover"
-            />
-            <span className="min-w-0">
-              <span className="block truncate font-bold">
-                Antoni Byczek
-              </span>
-              <span className="mt-1 block text-sm font-medium text-violet-800">
-                Klasa: 1Tc
-              </span>
-            </span>
-            <FiArrowRight
-              aria-hidden="true"
-              className="ml-auto shrink-0 transition group-hover:translate-x-1"
-            />
-          </a>
+          
           {/* Dodaj kolejne karty uczniów powyżej. */}
         <h3 className="mt-10 text-xl font-black tracking-tight">Klasa 1 TC</h3>
-        <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {/* Uczniowie 1 TC: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <ProfileCard
-            href="/klasa-imie-nazwisko"
-            name="Twoje imię i nazwisko"
-            description="Klasa: 1 TC"
+            href="/1tc-antoni-byczek"
+            name="Antoni Byczek"
+            description="Klasa: 1Tc"
+            image="https://avatars.githubusercontent.com/u/259967531?v=4"
+            variant="uczeń"
           />
-          {/* Dodaj kolejne karty uczniów 1 TC powyżej. */}
         </div>
-
         <h3 className="mt-10 text-xl font-black tracking-tight">Klasa 2 TE</h3>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Uczniowie 2 TE: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
@@ -85,8 +62,6 @@ export default function Home() {
             name="Twoje imię i nazwisko"
             description="Klasa: 2 TE"
           />
-          {/* Dodaj kolejne karty uczniów 2 TE powyżej. */}
->>>>>>> wyzwanie_3
         </div>
       </section>
 
