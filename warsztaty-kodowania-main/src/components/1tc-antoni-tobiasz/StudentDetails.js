@@ -7,7 +7,7 @@ export default function StudentDetails() {
         O mnie
       </h2>
       <p className="mt-3 leading-7 text-slate-600">
-        [Antoni Tobiasz klasa 1tc]
+        Antoni Tobiasz klasa 1tc
       </p>
       <a
         href="https://github.com/antoni-tobiasz"
