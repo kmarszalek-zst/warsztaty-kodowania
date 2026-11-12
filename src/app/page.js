@@ -43,32 +43,7 @@ export default function Home() {
         </div>
 
           {/* Uczniowie: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
-          <a
-            href="1tc-filip-pisz"
-            className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
-          >
-            <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-violet-200 text-violet-900">
-            <Image
-              src="https://avatars.githubusercontent.com/u/340131343?s=400&u=0626f0cd5dac334c18bd72ed011972b8ce3cff9a&v=4"
-              alt=""
-              width={56}
-              height={56}
-              className="h-14 w-14 rounded-2xl object-cover"
-            />
-            </span>
-            <span className="min-w-0">
-              <span className="block truncate font-bold">
-                Filip Pisz
-              </span>
-              <span className="mt-1 block text-sm font-medium text-violet-800">
-                Klasa: 1Tc
-              </span>
-            </span>
-            <FiArrowRight
-              aria-hidden="true"
-              className="ml-auto shrink-0 transition group-hover:translate-x-1"
-            />
-          </a>
+          
           {/* Dodaj kolejne karty uczniów powyżej. */}
         <h3 className="mt-10 text-xl font-black tracking-tight">Klasa 1 TC</h3>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -77,7 +52,6 @@ export default function Home() {
             href="/1tc-filip-pisz"
             name="Filip Pisz"
             description="Klasa: 1 TC"
-            description="Uczeń"
             image="https://avatars.githubusercontent.com/u/340131343?s=400&u=0626f0cd5dac334c18bd72ed011972b8ce3cff9a&v=4"
             variant="Student"
           />
