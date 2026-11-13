@@ -7,7 +7,7 @@ export default function StudentDetails() {
         O mnie
       </h2>
       <p className="mt-3 leading-7 text-slate-600">
-        [Jestem uczniem klasy 1  TC w zespole szkół technicznych w Jaśle. Interesuję się programowaniem i nowymi technologiami.]
+        Jestem uczniem klasy 1  TC w zespole szkół technicznych w Jaśle. Interesuję się programowaniem i nowymi technologiami.
       </p>
       <a
         href="https://github.com/jaroszmaciejtc-cyber"
