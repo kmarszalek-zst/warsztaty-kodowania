@@ -11,10 +11,19 @@ export default function StudentDetails() {
         <br />
         Interesuje się programowanie a w szczególności tworzeniem prostych gier.
         <br />
+        Jestem członkiem klubu 
+        <a href="https://hackclub.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="font-medium text-red-700 underline decoration-red-300 underline-offset-4 transition hover:text-red-900"
+        > Hack Club
+        </a>
+        {' '}niedochodowa organizacja dla młodzieży, która uczy programowania i technologii.
+        <br />
         Lubie uczestoniczyć w <a href="https://itch.io/jams"
           target="_blank"
           rel="noreferrer"
-          className="font-medium text-violet-700 underline decoration-violet-300 underline-offset-4 transition hover:text-violet-900"
+          className="font-medium text-violet-00 underline decoration-violet-300 underline-offset-4 transition hover:text-violet-900"
         >Game jams
         </a> i uczestiniczyłem w np. <a href="https://itch.io/jam/mini-jame-gam-55"
           target="_blank"
