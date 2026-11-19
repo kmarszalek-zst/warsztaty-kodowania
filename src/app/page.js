@@ -60,7 +60,7 @@ export default function Home() {
             className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
           >
             <Image
-              src="https://avatars.githubusercontent.com/u/579"
+              src="https://avatars.githubusercontent.com/u/340120866?v=4"
               alt=""
               width={56}
               height={56}
@@ -68,7 +68,7 @@ export default function Home() {
             />
             <span className="min-w-0">
               <span className="block truncate font-bold">
-                Twoje Antoni Tobiasz
+               Antoni Tobiasz
               </span>
               <span className="mt-1 block text-sm font-medium text-violet-800">
                 Klasa: 1tc

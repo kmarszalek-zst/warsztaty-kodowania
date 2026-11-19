@@ -63,7 +63,7 @@ export default function Home() {
             </span>
             <span className="min-w-0">
               <span className="block truncate font-bold">
-                Twoje imię i nazwisko
+                Antoni Tobiasz
               </span>
               <span className="mt-1 block text-sm font-medium text-violet-800">
                 Klasa: [1TC]

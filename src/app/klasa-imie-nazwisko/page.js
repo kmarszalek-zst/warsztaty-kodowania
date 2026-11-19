@@ -18,8 +18,9 @@ export default function StudentTemplatePage() {
               aria-label="Miejsce na zdjęcie ucznia"
               className="flex h-28 w-28 shrink-0 flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-violet-200 bg-violet-600 text-violet-100"
             >
-              <FiUser aria-hidden="true" size={32} />
-              <span className="text-xs font-medium">Antoni Tobiasz</span>
+              <img src="https://avatars.githubusercontent.com/u/340120866?v=4" 
+              alt="Antoni Tobiasz" 
+              className="h-full w-full object-cover" />
             </div>
             <div>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
