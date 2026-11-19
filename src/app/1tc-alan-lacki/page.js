@@ -1,7 +1,7 @@
 import { FiUser } from "react-icons/fi";
 import Image from "next/image";
 import ProfileLayout from "../../components/general/ProfileLayout";
-import StudentDetails from "../../components/klasa-imie-nazwisko/StudentDetails";
+import StudentDetails from "../../components/1tc-alan-lacki/StudentDetails";
 
 export const metadata = {
   title: "Wizytówka ucznia — Twoje imię i nazwisko — ZST Koduj",

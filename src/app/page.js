@@ -56,7 +56,7 @@ export default function Home() {
 
           {/* Uczniowie: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <a
-            href="/klasa-imie-nazwisko"
+            href="/1tc-alan-lacki"
             className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
           >
           <Image
