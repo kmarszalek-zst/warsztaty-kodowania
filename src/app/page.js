@@ -44,8 +44,8 @@ export default function Home() {
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Uczniowie 1 TC: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <ProfileCard
-            href="/klasa-imie-nazwisko"
-            name="Twoje imię i nazwisko"
+            href="/1tc-maciej-jarosz"
+            name="Maciej Jarosz"
             description="Klasa: 1 TC"
           />
           {/* Dodaj kolejne karty uczniów 1 TC powyżej. */}
