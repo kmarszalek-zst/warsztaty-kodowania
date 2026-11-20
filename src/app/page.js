@@ -46,10 +46,10 @@ export default function Home() {
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Uczniowie 1 TC: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <ProfileCard
-            href="/andriej-kuzmenka"
+            href="/1tc-andriej-kuzmenka"
             name="Andriej Kuzmenka"
             description="1TC"
-            image="https://avatars.githubusercontent.com/u/343521935?s=400&u=e3600450a7d1cab6dce785bdfc0641c47c349231&v=4"
+            image="https://avatars.githubusercontent.com/u/343521935?s=400&u=01b0f174284a37e3d9fc966581f6646778d02c6b&v=4"
             variant="1TC"
           />
           {/* Dodaj kolejne karty uczniów 1 TC powyżej. */}
