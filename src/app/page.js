@@ -55,9 +55,10 @@ export default function Home() {
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Uczniowie 2 TE: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <ProfileCard
-            href="/klasa-imie-nazwisko"
-            name="Twoje imię i nazwisko"
+            href="/2te-radek-wnek"
+            name="Radek Wnęk"
             description="Klasa: 2 TE"
+            image="https://avatars.githubusercontent.com/u/356226833?v=4&size=64"
           />
           {/* Dodaj kolejne karty uczniów 2 TE powyżej. */}
         </div>

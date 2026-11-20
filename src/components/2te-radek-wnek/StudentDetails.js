@@ -7,10 +7,10 @@ export default function StudentDetails() {
         O mnie
       </h2>
       <p className="mt-3 leading-7 text-slate-600">
-        [Tutaj wpisz kilka zdań o sobie.]
+        Cześć! Jestem Radek Wnęk, uczniem klasy 2 TE w Zespole Szkół Technicznych. Interesuję się programowaniem i technologiami informatycznymi. W wolnym czasie lubię rozwijać swoje umiejętności w zakresie tworzenia aplikacji webowych oraz eksplorować nowe narzędzia i frameworki.
       </p>
       <a
-        href="https://github.com/twoj-login"
+        href="https://github.com/radekwx"
         target="_blank"
         rel="noreferrer"
         className="mt-6 inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 font-bold text-white transition hover:bg-slate-700"
