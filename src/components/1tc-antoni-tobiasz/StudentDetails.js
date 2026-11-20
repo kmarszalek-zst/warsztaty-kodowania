@@ -10,7 +10,7 @@ export default function StudentDetails() {
         Jestem uczniem klasy 1tc i lubię programować.
       </p>
       <a
-        href="https://github.com/twoj-login"
+        href="https://github.com/tobiaszantonitc-bit"
         target="_blank"
         rel="noreferrer"
         className="mt-6 inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 font-bold text-white transition hover:bg-slate-700"

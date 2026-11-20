@@ -44,9 +44,10 @@ export default function Home() {
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Uczniowie 1 TC: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <ProfileCard
-            href="/klasa-imie-nazwisko"
-            name="Twoje imię i nazwisko"
+            href="/1tc-antoni-tobiasz"
+            name="Antoni Tobiasz"
             description="Klasa: 1 TC"
+            image="https://avatars.githubusercontent.com/u/340120866?v=4&size=64"
           />
           {/* Dodaj kolejne karty uczniów 1 TC powyżej. */}
         </div>
@@ -56,24 +57,9 @@ export default function Home() {
           {/* Uczniowie 2 TE: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <ProfileCard
             href="/klasa-imie-nazwisko"
-            className="group flex items-center gap-4 rounded-3xl border border-violet-300 bg-violet-50 p-5 shadow-sm transition hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-100"
-          >
-            <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-violet-200 text-violet-900">
-              <FiUserPlus aria-hidden="true" size={24} />
-            </span>
-            <span className="min-w-0">
-              <span className="block truncate font-bold">
-                Twoje imię i nazwisko
-              </span>
-              <span className="mt-1 block text-sm font-medium text-violet-800">
-                Klasa: [Twoja klasa]
-              </span>
-            </span>
-            <FiArrowRight
-              aria-hidden="true"
-              className="ml-auto shrink-0 transition group-hover:translate-x-1"
-            />
-          </a>
+            name="Twoje imię i nazwisko"
+            description="Klasa: 2 TE"
+          />
           {/* Dodaj kolejne karty uczniów powyżej. */}
         </div>
       </section>
