@@ -47,6 +47,7 @@ export default function Home() {
             href="/1tc-maciej-jarosz"
             name="Maciej Jarosz"
             description="Klasa: 1 TC"
+            image="https://avatars.githubusercontent.com/u/340122521?v=4"
           />
           {/* Dodaj kolejne karty uczniów 1 TC powyżej. */}
         </div>
