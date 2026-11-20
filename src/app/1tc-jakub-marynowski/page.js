@@ -22,7 +22,7 @@ export default function StudentTemplatePage() {
               className="h-28 w-28 shrink-0 rounded-2xl object-cover"
             />
             <div>
-              <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
+              <h1 className="text-3xl font-bold tracking-tight text-white [text-shadow:_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000,_2px_2px_0_#000,_0_-2px_0_#000,_0_2px_0_#000,_-2px_0_0_#000,_2px_0_0_#000] sm:text-4xl">
                 Jakub Marynowski
               </h1>
               <p className="mt-2 font-medium text-violet-100">
