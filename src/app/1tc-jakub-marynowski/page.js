@@ -12,7 +12,7 @@ export default function StudentTemplatePage() {
   return (
     <ProfileLayout>
       <article className="mt-8 overflow-hidden rounded-3xl border border-black bg-white shadow-lg">
-        <div className="bg-gradient-to-r from-indigo-500 via-cyan-200 to-turkus-300  p-8 text-black sm:p-10">
+        <div className="bg-gradient-to-r from-indigo-500 via-cyan-200 to-indigo-300  p-8 text-black sm:p-10">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
            <img
               src="https://avatars.githubusercontent.com/u/340120171?v=4"
