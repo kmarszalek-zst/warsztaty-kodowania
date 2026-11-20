@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { FiCode } from "react-icons/fi";
 import ProfileLayout from "../../components/general/ProfileLayout";
 import StudentDetails from "../../components/1tc-antoni-byczek/StudentDetails";
 
@@ -19,14 +20,21 @@ export default function StudentTemplatePage() {
               alt="Zdjęcie profilowe Antniego Byczka"
               width={512}
               height={512}
-              
               className="h-28 w-28 rounded-3xl border-4 border-white/20 object-cover sm:h-32 sm:w-32"
               priority
             />
             <div>
+              <p className="inline-flex items-center gap-2 text-sm font-semibold tracking-wide text-lime-200">
+                <FiCode aria-hidden="true" /> Uczeń
+              </p>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
                 Antoni Byczek
               </h1>
+                <p>
+                  <small style={{ color: "#ffbece" }}>
+                    aka. ByQ
+                  </small>
+                </p>
               <p className="mt-2 font-medium text-violet-100">
                 Klasa: 1Tc
               </p>

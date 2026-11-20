@@ -1,4 +1,11 @@
+"use client";
 import { FiArrowUpRight } from "react-icons/fi";
+
+const playHoverSound = () => {
+  const audio = new Audio("/sounds/hover.mp3");
+  audio.volume = 0.2;
+  audio.play().catch(() => {}); 
+};
 
 const programy = ["Godot", "VS code", "Intellij IDEA"];
 
@@ -13,10 +20,12 @@ export default function StudentDetails() {
           <p className="mt-3 text-lg leading-8 text-slate-600">
             Jestem uczniem szkoły średniej w jaśle imienia Bohaterów września klasy 1 Tc.
             <br />
-            Interesuje się programowanie a w szczególności tworzeniem prostych gier.
+            Interesuje się programowanie a w szczególności tworzeniem aprostych gier.
             <br />
             Jestem członkiem klubu 
             <a href="https://hackclub.com/"
+              onMouseEnter={playHoverSound}
+              onClick={playHoverSound}
               target="_blank"
               rel="noreferrer"
               className="font-medium text-red-700 underline decoration-red-300 underline-offset-4 transition hover:text-red-900"
@@ -25,11 +34,15 @@ export default function StudentDetails() {
             {' '}niedochodowa organizacja dla młodzieży, która uczy programowania i technologii.
             <br />
             Lubie uczestoniczyć w <a href="https://itch.io/jams"
+              onMouseEnter={playHoverSound}
+              onClick={playHoverSound}
               target="_blank"
               rel="noreferrer"
               className="font-medium text-violet-00 underline decoration-violet-300 underline-offset-4 transition hover:text-violet-900"
             >Game jams
             </a> i uczestiniczyłem w np. <a href="https://itch.io/jam/mini-jame-gam-55"
+              onMouseEnter={playHoverSound}
+              onClick={playHoverSound}
               target="_blank"
               rel="noreferrer"
               className="font-medium text-violet-300 underline decoration-violet-300 underline-offset-4 transition hover:text-violet-500"
@@ -37,6 +50,8 @@ export default function StudentDetails() {
             </a>
             .
             <a href="https://itch.io/jams"
+              onMouseEnter={playHoverSound}
+              onClick={playHoverSound}
               target="_blank"
               rel="noreferrer"
               className="font-medium text-gray-300 decoration-violet-300 underline-offset-4 transition hover:text-violet-900"
@@ -62,10 +77,12 @@ export default function StudentDetails() {
         </div>
         <></>
         <p className="mt-6 text-sm text-slate-600">
-        Publiczne projekty na GitHubie: 12 · Obserwujący: 5
+        Publiczne gry na itch.io: 2
         </p>
       <a
         href="https://github.com/ByQ001"
+        onMouseEnter={playHoverSound}
+        onClick={playHoverSound}
         target="_blank"
         rel="noreferrer"
         className="mt-6 inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 font-bold text-white transition hover:bg-slate-700"
@@ -74,6 +91,8 @@ export default function StudentDetails() {
       </a>
       ㅤ
       <a href="https://byqab.itch.io/"
+        onMouseEnter={playHoverSound}
+        onClick={playHoverSound}
         target="_blank"
         rel="noreferrer"
         className="mt-6 inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 font-bold text-white transition hover:bg-slate-700"
@@ -82,6 +101,8 @@ export default function StudentDetails() {
       </a>
       ㅤ
       <a href="https://hackatime.hackclub.com/@ByQ"
+        onMouseEnter={playHoverSound}
+        onClick={playHoverSound}
         target="_blank"
         rel="noreferrer"
         className="mt-6 inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 font-bold text-white transition hover:bg-slate-700"
