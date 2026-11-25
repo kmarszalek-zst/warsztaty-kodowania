@@ -18,7 +18,7 @@ export default function TeacherDetails() {
           </p>
           <p className="mt-5 inline-flex items-center gap-2 text-sm font-medium text-slate-600">
             <FiMapPin aria-hidden="true" /> Jasło
-          </p>
+          </p>      
         </section>
         <aside className="rounded-2xl bg-lime-100 p-4">
           <h2 className="text-sm font-bold uppercase tracking-wider text-lime-800">
