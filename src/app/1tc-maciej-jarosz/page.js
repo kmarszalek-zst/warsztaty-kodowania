@@ -12,13 +12,9 @@ export const metadata = {
 export default function StudentTemplatePage() {
   return (
     <ProfileLayout>
-     <article className="mt-8 overflow-hidden rounded-3xl border border-violet-200 bg-white shadow-xl shadow-violet-950/5">
-        <div className="relative overflow-hidden bg-gradient-to-br from-violet-950 via-violet-800 to-fuchsia-700 p-8 text-white sm:p-12">
-          <div
-            aria-hidden="true"
-            className="absolute -right-12 -top-20 h-64 w-64 rounded-full border-[32px] border-white/10"
-          />
-          <div className="relative flex flex-col gap-6 sm:flex-row sm:items-center">
+      <article className="mt-8 overflow-hidden rounded-3xl border border-black bg-white shadow-lg">
+        <div className="bg-gradient-to-r from-green-500 via-yellow-200 to-red-300  p-8 text-black sm:p-10">
+          <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
             <Image
               src="https://avatars.githubusercontent.com/u/340122521?s=400&v=4"
               alt="Zdjęcie profilowe Macieja Jarosza"
@@ -28,10 +24,14 @@ export default function StudentTemplatePage() {
               priority
             />
             <div>
+               <p className="mb-2 text-sm font-semibold uppercase tracking-widest text-gray-2000">
+    Uczeń warsztatów kodowania
+  </p>
+
               <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
                 Maciej Jarosz
               </h1>
-              <p className="mt-2 font-medium text-violet-100">
+              <p className="mt-2 font-medium text-black-2000 sm:text-lg">
                 Klasa: 1 TC
               </p>
             </div>
