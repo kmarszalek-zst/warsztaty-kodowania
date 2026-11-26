@@ -39,23 +39,27 @@ export default function Home() {
             variant="teacher"
           />
         </div>
-
         <h3 className="mt-10 text-xl font-black tracking-tight">Klasa 1 TC</h3>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {/* Uczniowie 1 TC: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <ProfileCard
             href="/1Tc-Alex-Mroczka"
             name="Alex Mroczka"
-            description="Klasa: 1Tc"
+            description="Klasa: 1 TC"
+            image="https://avatars.githubusercontent.com/u/340124808?s=400&u=6a6df4faf2b12d485b5e428742bd63be8d9664e6&v=4"
           />
+          {/* Dodaj kolejne karty uczniów 1 TC powyżej. */}
         </div>
 
         <h3 className="mt-10 text-xl font-black tracking-tight">Klasa 2 TE</h3>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {/* Uczniowie 2 TE: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
           <ProfileCard
             href="/klasa-imie-nazwisko"
             name="Twoje imię i nazwisko"
             description="Klasa: 2 TE"
           />
+          {/* Dodaj kolejne karty uczniów 2 TE powyżej. */}
         </div>
       </section>
 
