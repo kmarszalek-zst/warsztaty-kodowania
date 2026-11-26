@@ -7,7 +7,7 @@ export default function StudentDetails() {
         O mnie
       </h2>
       <p className="mt-3 leading-7 text-slate-600">
-        Cześć! Nazywam się Alex Mroczka i jestem uczniem klasy 1Tc. Interesuję się programowaniem i technologiami informatycznymi. W wolnym czasie lubię tworzyć projekty zwiazane z kodowaniem oraz rozwijać swoje umiejętności w dziedzinie IT. Moim celem jest zdobycie wiedzy i doświadczenia, które pozwolą mi w przyszłości realizować ciekawe projekty i rozwijać się zawodowo w branży technologicznej.
+        Cześć! Nazywam się Alex Mroczka i jestem uczniem klasy 1Tc. Interesuję się programowaniem i technologiami informatycznymi. W wolnym czasie lubię tworzyć projekty związane z kodowaniem oraz rozwijać swoje umiejętności w dziedzinie IT. Moim celem jest zdobycie wiedzy i doświadczenia, które pozwolą mi w przyszłości realizować ciekawe projekty i rozwijać się zawodowo w branży technologicznej.
       </p>
       <a
         href="https://github.com/mroczkaalextc-code"

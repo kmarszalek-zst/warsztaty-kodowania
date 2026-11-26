@@ -8,7 +8,7 @@ export const metadata = {
     "Wizytówka ucznia Alex Mroczka z klasy 1Tc w warsztatach ZST Koduj.",
 };
 
-export default function StudentTemplatePage() {
+export default function AlexMroczkaPage() {
   return (
     <ProfileLayout>
       <article className="mt-8 overflow-hidden rounded-3xl border border-violet-200 bg-white shadow-lg">
