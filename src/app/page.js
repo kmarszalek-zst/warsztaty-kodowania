@@ -43,7 +43,14 @@ export default function Home() {
         <h3 className="mt-10 text-xl font-black tracking-tight">Klasa 1 TC</h3>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Uczniowie 1 TC: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
+
           <ProfileCard
+            href="/1tc-wiktor-brzezowski"
+            name="Wiktor Brzeżowski"
+            description="Klasa: 1 TC"
+            image="https://avatars.githubusercontent.com/u/340120448?v=4"
+          />
+           <ProfileCard
             href="/1tc-alan-lacki"
             name="Alan Łącki"
             description="Klasa: 1 TC"
