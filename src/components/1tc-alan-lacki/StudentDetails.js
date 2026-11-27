@@ -7,17 +7,10 @@ export default function StudentDetails() {
         O mnie
       </h2>
       <p className="mt-3 leading-7 text-slate-600">
-<<<<<<<< HEAD:src/components/1tc-alan-lacki/StudentDetails.js
         Nazywam się Alan Łącki i jestem uczniem klasy 1Tc. Interesuje się programowaniem. W wolnym czasie lubię grać w gry i oglądać filmy.
       </p>
       <a
         href="https://github.com/lackialantc-cmyk"
-========
-        Chodzę do ZST w Jaśle na profilu programista. Chcę zostać full-stack web developerem i tworzyć własne aplikacje internetowe.
-      </p>
-      <a
-        href="https://github.com/brzezowskiwiktortc-star"
->>>>>>>> origin/main:src/components/1tc-wiktor-brzezowski/StudentDetails.js
         target="_blank"
         rel="noreferrer"
         className="mt-6 inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 font-bold text-white transition hover:bg-slate-700"
