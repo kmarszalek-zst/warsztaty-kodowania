@@ -43,10 +43,24 @@ export default function Home() {
         <h3 className="mt-10 text-xl font-black tracking-tight">Klasa 1 TC</h3>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Uczniowie 1 TC: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
+
           <ProfileCard
-            href="/klasa-imie-nazwisko"
-            name="Twoje imię i nazwisko"
+            href="/1tc-wiktor-brzezowski"
+            name="Wiktor Brzeżowski"
             description="Klasa: 1 TC"
+            image="https://avatars.githubusercontent.com/u/340120448?v=4"
+          />
+           <ProfileCard
+            href="/1tc-alan-lacki"
+            name="Alan Łącki"
+            description="Klasa: 1 TC"
+            image="https://avatars.githubusercontent.com/u/78901316?v=4"
+          />
+          <ProfileCard
+            href="/1tc-antoni-tobiasz"
+            name="Antoni Tobiasz"
+            description="Klasa: 1 TC"
+            image="https://avatars.githubusercontent.com/u/340120866?v=4&size=64"
           />
           {/* Dodaj kolejne karty uczniów 1 TC powyżej. */}
         </div>
@@ -60,7 +74,7 @@ export default function Home() {
             description="Klasa: 2 TE"
             image="https://avatars.githubusercontent.com/u/356226833?v=4&size=64"
           />
-          {/* Dodaj kolejne karty uczniów 2 TE powyżej. */}
+          {/* Dodaj kolejne karty uczniów powyżej. */}
         </div>
       </section>
 
