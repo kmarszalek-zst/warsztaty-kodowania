@@ -56,6 +56,12 @@ export default function Home() {
             description="Klasa: 1 TC"
             image="https://avatars.githubusercontent.com/u/78901316?v=4"
           />
+          <ProfileCard
+            href="/1tc-antoni-tobiasz"
+            name="Antoni Tobiasz"
+            description="Klasa: 1 TC"
+            image="https://avatars.githubusercontent.com/u/340120866?v=4&size=64"
+          />
           {/* Dodaj kolejne karty uczniów 1 TC powyżej. */}
         </div>
 
@@ -67,7 +73,7 @@ export default function Home() {
             name="Twoje imię i nazwisko"
             description="Klasa: 2 TE"
           />
-          {/* Dodaj kolejne karty uczniów 2 TE powyżej. */}
+          {/* Dodaj kolejne karty uczniów powyżej. */}
         </div>
       </section>
 
