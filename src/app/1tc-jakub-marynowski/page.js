@@ -27,7 +27,7 @@ export default function StudentTemplatePage() {
               <span className="text-white [text-shadow:_-2px_-2px_0_#6b7280,_2px_-2px_0_#6b7280,_-2px_2px_0_#6b7280,_2px_2px_0_#6b7280,_0_-2px_0_#6b7280,_0_2px_0_#6b7280,_-2px_0_0_#6b7280,_2px_0_0_#6b7280]">
                 Jakub
               </span>{" "}
-                Marynowski
+                Marynowski ★
               </h1>
               <p className="mt-2 font-medium text-violet-100">
                 Klasa: 1TC
