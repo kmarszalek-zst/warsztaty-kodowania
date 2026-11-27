@@ -11,7 +11,7 @@ export const metadata = {
 export default function StudentTemplatePage() {
   return (
     <ProfileLayout>
-      <article className="mt-8 overflow-hidden rounded-3xl border border-black bg-white shadow-lg">
+      <article className="mt-8 overflow-hidden rounded-3xl border border-white bg-white shadow-lg">
         <div className="bg-gradient-to-r from-indigo-500 via-cyan-200 to-indigo-300  p-8 text-black sm:p-10">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
            <img
@@ -23,8 +23,11 @@ export default function StudentTemplatePage() {
               fetchPriority="high" 
             />
             <div>
-              <h1 className="text-3xl font-bold tracking-tight text-white [text-shadow:_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000,_2px_2px_0_#000,_0_-2px_0_#000,_0_2px_0_#000,_-2px_0_0_#000,_2px_0_0_#000] sm:text-4xl">
-                Jakub Marynowski
+              <h1 className="text-3xl font-bold tracking-tight text-[#f2cc13] [text-shadow:_-2px_-2px_0_#816721,_2px_-2px_0_#816721,_-2px_2px_0_#816721,_2px_2px_0_#816721,_0_-2px_0_#816721,_0_2px_0_#816721,_-2px_0_0_#816721,_2px_0_0_#816721] sm:text-4xl">
+              <span className="text-white [text-shadow:_-2px_-2px_0_#6b7280,_2px_-2px_0_#6b7280,_-2px_2px_0_#6b7280,_2px_2px_0_#6b7280,_0_-2px_0_#6b7280,_0_2px_0_#6b7280,_-2px_0_0_#6b7280,_2px_0_0_#6b7280]">
+                Jakub
+              </span>{" "}
+                Marynowski
               </h1>
               <p className="mt-2 font-medium text-violet-100">
                 Klasa: 1TC
