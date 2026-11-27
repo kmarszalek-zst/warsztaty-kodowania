@@ -1,3 +1,4 @@
+import { FiArrowRight, FiUserPlus } from "react-icons/fi";
 import ChallengeInstructions from "../components/general/ChallengeInstructions";
 import ChallengeThreePlaceholder from "../components/general/ChallengeThreePlaceholder";
 import ChallengeTwoInstructions from "../components/general/ChallengeTwoInstructions";
@@ -39,7 +40,7 @@ export default function Home() {
             variant="teacher"
           />
         </div>
-
+        
         <h3 className="mt-10 text-xl font-black tracking-tight">Klasa 1 TC</h3>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Uczniowie 1 TC: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
@@ -68,6 +69,12 @@ export default function Home() {
         <h3 className="mt-10 text-xl font-black tracking-tight">Klasa 2 TE</h3>
         <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {/* Uczniowie 2 TE: skopiuj kartę i uzupełnij własne dane oraz adres strony. */}
+          <ProfileCard
+            href="/2te-kacper-stasiowski"
+            name="Kacper Stasiowski"
+            description="Klasa: 2 TE"
+              image="https://avatars.githubusercontent.com/u/343085314?v=4"
+          />
           <ProfileCard
             href="/2te-radek-wnek"
             name="Radek Wnęk"
