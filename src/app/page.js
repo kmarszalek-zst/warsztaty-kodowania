@@ -52,6 +52,7 @@ export default function Home() {
             href="1tc-jakub-marynowski"
             name="Jakub Marynowski"
             description="Klasa: 1 TC"
+            
           />
           {/* Dodaj kolejne karty uczniów 1 TC powyżej. */}
         </div>

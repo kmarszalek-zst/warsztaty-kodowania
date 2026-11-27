@@ -19,7 +19,8 @@ export default function StudentTemplatePage() {
               alt="Zdjęcie ucznia Jakub Marynowski"
               width={128}
               height={128}
-              className="h-28 w-28 shrink-0 rounded-2xl object-cover"
+              className="h-28 w-28 rounded-3xl border-4 border-white/20 object-cover sm:h-32 sm:w-32"
+              fetchPriority="high" 
             />
             <div>
               <h1 className="text-3xl font-bold tracking-tight text-white [text-shadow:_-2px_-2px_0_#000,_2px_-2px_0_#000,_-2px_2px_0_#000,_2px_2px_0_#000,_0_-2px_0_#000,_0_2px_0_#000,_-2px_0_0_#000,_2px_0_0_#000] sm:text-4xl">
