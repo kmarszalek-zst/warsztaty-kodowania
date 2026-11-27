@@ -16,7 +16,7 @@ export default function StudentTemplatePage() {
         <div className="bg-violet-700 p-8 text-white sm:p-10">
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
             <Image
-              src="https://avatars.githubusercontent.com/u/356226833?v=4&size=64"
+              src="https://avatars.githubusercontent.com/u/356226833?s=96&v=4"
               alt="Zdjęcie profilowe Radek Wnęk"
               width={128}
               height={128}
