@@ -59,6 +59,7 @@ export default function Home() {
             href="/2te-kacper-stasiowski"
             name="Kacper Stasiowski"
             description="Klasa: 2 TE"
+              image="https://avatars.githubusercontent.com/u/343085314?v=4"
           />
           {/* Dodaj kolejne karty uczniów 2 TE powyżej. */}
         </div>
