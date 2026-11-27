@@ -43,7 +43,7 @@ export default function TeacherDetails() {
         href="https://github.com/ja-klaudiusz"
         target="_blank"
         rel="noreferrer"
-        className="mt-7 inline-flex items-center gap-2 rounded-2xl bg-slate-900 px-5 py-3.5 font-bold text-white transition hover:bg-slate-700"
+        className="mt-7 inline-flex items-center gap-2 rounded-2xl bg-[#6b7280] px-5 py-3.5 font-bold text-white transition hover:bg-[#6b7280]-700"
       >
         Zobacz profil na GitHubie <FiArrowUpRight aria-hidden="true" />
       </a>
